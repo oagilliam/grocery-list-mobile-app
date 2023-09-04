@@ -1,27 +1,37 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-family: 'Rubik', sans-serif;
     background-color: #e7beff;
 }
 
-.flex-main{
+.flex-css{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .bear-img{
+    width: 180px;
+}
+
+#input-field, #add-button{
+    border: none;
     width: 200px;
+    border-radius: 5px;
+    font-size: 2ch;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: 'Rubik', sans-serif;
 }
 
 #input-field{
-    border: none;
-    width: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 5px;
-    font-size: 1.8ch;
-    text-align: center;
-    background: rgb(177, 100, 222,.2);
+    background: rgb(177, 100, 222,.2); 
+}
+
+#add-button{
+    background: rgb(177,81,100);
+    text-shadow: 0px 0px .5px black;
+    color: #e7beff;
 }
