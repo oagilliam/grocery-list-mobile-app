@@ -13,12 +13,12 @@ html, body, main{
     max-width: 320px;
 }
 
-.bear-img{
+img{
     width: 150px;
     margin: 0 auto;
 }
 
-#input-field, #add-button{
+input, button{
     border: none;
     padding: 15px;
     border-radius: 8px;
@@ -26,10 +26,9 @@ html, body, main{
     text-align: center;
     font-size: 20px;
     font-family: 'Rubik', sans-serif;
-    
 }
 
-#input-field{
+input{
     text-align: center;
     margin-bottom: 10px;
     background: rgb(177, 100, 222,.2); 
@@ -37,7 +36,7 @@ html, body, main{
     width: 200px;
 }
 
-#add-button{
+button{
     background: rgb(177,81,100);
     text-shadow: 0px 0px .5px black;
     color: #e7beff;
@@ -46,11 +45,11 @@ html, body, main{
     transition: 0.2s all;
 } 
 
-#add-button:hover{
+button:hover{
     opacity: .8;
 }
 
-#add-button:active{
+button:active{
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
